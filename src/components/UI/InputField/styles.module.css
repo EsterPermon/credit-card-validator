@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 8px 0 40px 4px;
+  color: gray;
+  font-weight: bold;
+}
+
+.field {
+  display: flex;
+  border-bottom: 1px solid gray;
+  padding: 8px 0 4px 0;
+}
+
+.input {
+  border: none;
+  font-size: 16px;
+  display: flex;
+  flex-grow: 1;
+  outline: none;
+  padding-left: 8px;
+}
+
+.input::placeholder {
+  color: lightgray;
+}
+
+.inputFocused {
+  color: green;
+
+  .field {
+    border-color: green;
+  }
+}
+
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type='number'] {
+  -webkit-appearance: none;
+  appearance: none;
+}

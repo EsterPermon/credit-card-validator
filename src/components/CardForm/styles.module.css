@@ -1,0 +1,26 @@
+.container {
+  display: grid;
+  place-items: center;
+  height: 90vh;
+}
+
+.form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.message {
+  font-weight: bold;
+  margin: 24px 0;
+  align-self: center;
+}
+
+.error {
+  color: red;
+}
+
+.success {
+  color: green;
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "id": "amex",
+    "name": "American Express",
+    "rangeValidations": [
+      {
+        "type": "digits",
+        "value": 34
+      },
+      {
+        "type": "digits",
+        "value": 37
+      }
+    ],
+    "lengthValidations": [
+      {
+        "type": "digits",
+        "value": 15
+      }
+    ],
+    "icon": ""
+  },
+  {
+    "id": "jcb",
+    "name": "JCB",
+    "rangeValidations": [
+      {
+        "type": "interval",
+        "value": {
+          "min": 3528,
+          "max": 3589
+        }
+      }
+    ],
+    "lengthValidations": [
+      {
+        "type": "interval",
+        "value": {
+          "min": 16,
+          "max": 19
+        }
+      }
+    ],
+    "icon": ""
+  },
+  {
+    "id": "master",
+    "name": "MasterCard",
+    "rangeValidations": [
+      {
+        "type": "interval",
+        "value": {
+          "min": 2221,
+          "max": 2720
+        }
+      },
+      {
+        "type": "interval",
+        "value": {
+          "min": 51,
+          "max": 55
+        }
+      }
+    ],
+    "lengthValidations": [
+      {
+        "type": "digits",
+        "value": 16
+      }
+    ],
+    "icon": ""
+  },
+  {
+    "id": "visa",
+    "name": "Visa",
+    "rangeValidations": [
+      {
+        "type": "digits",
+        "value": 4
+      }
+    ],
+    "lengthValidations": [
+      {
+        "type": "digits",
+        "value": 13
+      },
+      {
+        "type": "digits",
+        "value": 16
+      },
+      {
+        "type": "digits",
+        "value": 19
+      }
+    ],
+    "icon": ""
+  }
+]

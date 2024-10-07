@@ -1,0 +1,33 @@
+{
+  "type": "dictionary-card-schemes",
+  "data": [
+    {
+      "id": "amex",
+      "name": "American Express",
+      "ranges": "34,37",
+      "length": "15",
+      "icon": ""
+    },
+    {
+      "id": "jcb",
+      "name": "JCB",
+      "ranges": "3528-3589",
+      "length": "16-19",
+      "icon": ""
+    },
+    {
+      "id": "master",
+      "name": "MasterCard",
+      "ranges": "2221-2720, 51-55",
+      "length": "16",
+      "icon": ""
+    },
+    {
+      "id": "visa",
+      "name": "Visa",
+      "ranges": "4",
+      "length": "13,16,19",
+      "icon": ""
+    }
+  ]
+}

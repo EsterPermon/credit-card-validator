@@ -1,0 +1,20 @@
+.button {
+  width: 100%;
+  padding: 12px 0;
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  border: none;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.button:disabled {
+  background-color: gray;
+  color: lightgray;
+  cursor: auto;
+}
